@@ -35,7 +35,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/operations', operations);
-app.listen(3001, () => console.log('React App Listening on port 3k1!'));
+app.listen(3000,console.log('React App Listening on port 3000!'));
 
 // app.post('/login', function(req, res) {
 //     passport.authenticate('login', function(err, user) {
